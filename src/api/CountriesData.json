@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "countryName": "Pakistan",
+    "capital": "Islamabad",
+    "population": "240 million",
+    "region": "Asia",
+    "interestingFact": "Pakistan is home to the second highest mountain in the world, K2, and has one of the world's oldest civilizations—the Indus Valley Civilization."
+  },
+  {
+    "id": 2,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": "68 million",
+    "region": "Europe",
+    "interestingFact": "France is the most visited country in the world and home to the Eiffel Tower, one of the most recognized monuments globally."
+  },
+  {
+    "id": 3,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": "215 million",
+    "region": "South America",
+    "interestingFact": "Brazil contains about 60% of the Amazon Rainforest and is the only country in South America that speaks Portuguese."
+  },
+  {
+    "id": 4,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": "125 million",
+    "region": "Asia",
+    "interestingFact": "Japan is made up of over 6,800 islands and is known for its unique blend of ancient traditions and cutting-edge technology."
+  },
+  {
+    "id": 5,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": "39 million",
+    "region": "North America",
+    "interestingFact": "Canada has the longest coastline in the world and more lakes than all other countries combined."
+  },
+  {
+    "id": 6,
+    "countryName": "Nigeria",
+    "capital": "Abuja",
+    "population": "223 million",
+    "region": "Africa",
+    "interestingFact": "Nigeria is the most populous country in Africa and its film industry, Nollywood, is the second-largest in the world by volume."
+  },
+  {
+    "id": 7,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": "26 million",
+    "region": "Oceania",
+    "interestingFact": "Australia is home to unique wildlife like kangaroos and koalas and is the only country that is also a continent."
+  },
+  {
+    "id": 8,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": "84 million",
+    "region": "Europe",
+    "interestingFact": "Germany is known for its engineering excellence and has the world's oldest highway system—the Autobahn."
+  },
+  {
+    "id": 9,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": "110 million",
+    "region": "Africa",
+    "interestingFact": "Egypt is famous for its ancient pyramids, especially the Great Pyramid of Giza, one of the Seven Wonders of the Ancient World."
+  }
+]
