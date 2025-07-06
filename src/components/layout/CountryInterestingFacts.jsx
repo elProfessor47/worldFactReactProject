@@ -6,9 +6,9 @@ const CountryInterestingFacts = ({ currCountry }) => {
   return (
     <div
       key={id}
-      className="bg-gradient-to-br from-[#080509] via-[#1d1919] to-[#080509] p-8 mx-3 border border-gray-500 rounded-2xl"
+      className="bg-gradient-to-br from-[#080509] via-[#1d1919] to-[#080509] p-8 mx-3 my-2 border border-gray-500 rounded-2xl"
     >
-      <div className="text-sm tracking-tight">
+      <div className="text-sm tracking-tight min-w-55 700:min-w-58 lg:min-w-52">
         <h1 className="text-2xl mb-4 font-semibold underline underline-offset-4">
           {countryName}
         </h1>

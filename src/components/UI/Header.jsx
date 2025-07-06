@@ -21,14 +21,14 @@ const Header = () => {
         </NavLink>
 
         <nav className="hidden md:block">
-          <ul className="flex justify-end gap-8 text-white">
+          <ul className="flex justify-end gap-8 text-white text-base lg:text-lg">
             {navItems.map(({ name, path }) => (
               <li key={name}>
                 <NavLink
-                onClick={() => window.scrollTo(0, 0)}
+                  onClick={() => window.scrollTo(0, 0)}
                   to={path}
                   className={({ isActive }) =>
-                    isActive ? "border-b-2 border-white" : ""
+                    isActive ? "border-b-2 border-white" : "" 
                   }
                 >
                   {name}
@@ -54,7 +54,7 @@ const Header = () => {
 
         {showNav && (
           <nav className="absolute left-0 top-20 w-full bg-[#202020] z-50">
-            <ul className="flex items-center flex-col gap-6 py-3 text-white">
+            <ul className="flex items-center flex-col text-[18px] gap-6 py-3 text-white ">
               {navItems.map(({ name, path }) => (
                 <li key={name}>
                   <NavLink
@@ -62,7 +62,10 @@ const Header = () => {
                     className={({ isActive }) =>
                       isActive ? "border-b-2 border-white" : ""
                     }
-                    onClick={() => setShowNav(false)}
+                    onClick={() => {
+                      setShowNav(false);
+                      window.scrollTo(0, 0);
+                    }}
                   >
                     {name}
                   </NavLink>

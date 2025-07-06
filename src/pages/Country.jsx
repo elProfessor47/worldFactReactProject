@@ -36,7 +36,7 @@ const Country = () => {
   );
 
   return (
-    <div className="content min-h-[48.5vh] mt-30 mb-10">
+    <div className="content min-h-[48.5vh] mt-25 mb-10">
       <SearchFilter
         search={search}
         setSearch={setSearch}
@@ -45,7 +45,7 @@ const Country = () => {
         countries={countries}
         setCountries={setCountries}
       />
-      <ul className="grid grid-cols-4 gap-7 justify-items-center">
+      <ul className="grid grid-cols-1 600:grid-cols-2 600:gap-15 900:grid-cols-3 xl:grid-cols-4 gap-7 justify-items-center">
         {filteredCountries.map((currCountry) => {
           return (
             <CountryCard

@@ -3,6 +3,15 @@
 
 @theme {
   --font-poppins: "Poppins";
+  --font-fira : "Fira code", sans-serif;
+  --breakpoint-400:400px;
+  --breakpoint-450 : 450px;
+  --breakpoint-500: 500px;
+  --breakpoint-600: 600px;
+  --breakpoint-700: 700px;
+  --breakpoint-800: 800px;
+  --breakpoint-900:900px;
+  --breakpoint-1100:1100px;
 }
 
 @layer base {

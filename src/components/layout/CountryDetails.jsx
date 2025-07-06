@@ -36,15 +36,15 @@ const CountryDetails = () => {
   } = country;
 
   return (
-    <div className="content">
-      <div className="grid grid-cols-2 gap-10 h-[96vh] items-center">
+    <div className="content mt-20 p-5">
+      <div className="grid grid-cols-1 text-left justify-items-left items-center">
         {country && (
           <>
-            <div>
-              <img className="size-80 object-contain" src={flags.svg} alt="" />
+            <div className="mt-5">
+              <img className="size-40 object-contain" src={flags.svg} alt="" />
             </div>
-            <div className="flex flex-col gap-2 mt-5">
-              <h1 className="text-4xl font-semibold">{name.official}</h1>
+            <div className="flex flex-col gap-2 text-sm py-5">
+              <h1 className="text-2xl my-5 font-bold tracking-wider">{name.official}</h1>
               <p>
                 <span className="font-semibold underline underline-offset-4">Native names :</span>{" "}
                 {Object.keys(name.nativeName)
@@ -88,7 +88,7 @@ const CountryDetails = () => {
                 )}
               </p>
               <NavLink to="/country">
-                <button className="inline-flex items-center gap-3 bg-gray-800 px-6 py-1 -ml-1 rounded-xl border border-gray-400 cursor-pointer mt-2">Go Back  <FaLongArrowAltRight/> </button>
+                <button className="inline-flex items-center gap-3 bg-gray-800 px-6 py-1 my-1 -ml-1 rounded-xl border border-gray-400 cursor-pointer mt-2">Go Back  <FaLongArrowAltRight/> </button>
               </NavLink>
             </div>
           </>

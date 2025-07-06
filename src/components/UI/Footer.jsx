@@ -12,8 +12,8 @@ const Footer = () => {
     TbMailPlus: <TbMailPlus />,
   };
   return (
-    <footer className="h-20 bg-[#151414] font-poppins">
-      <div className="content grid grid-cols-3 gap-10 h-20 items-center">
+    <footer className="bg-[#151414] font-poppins">
+      <div className="content grid grid-cols-1 700:grid-cols-2 700:gap-7 lg:grid-cols-3 text-sm gap-10 items-center py-5">
         {FooterData.map((currObj) => {
           const { title, icon, details } = currObj;
           return (
@@ -27,13 +27,13 @@ const Footer = () => {
           );
         })}
       </div>
-      <div className="bg-[#202020] h-18">
-        <div className="h-18 content grid grid-cols-2 items-center">
-          <div className="text-[#878787]">
+      <div className="bg-[#202020]">
+        <div className="content grid grid-cols-1 lg:grid-cols-2 lg:text-left items-center text-center  gap-2 py-5">
+          <div className="text-[#878787] leading-6">
             Copyright &copy; 2024, All Right Reserved
           </div>
           <div>
-            <ul className="flex gap-5 justify-end text-[#878787]">
+            <ul className="flex flex-col lg:flex-row lg:justify-end gap-2 text-[#878787]">
               <li className="hover:text-white">
                 <NavLink
                   to="/"

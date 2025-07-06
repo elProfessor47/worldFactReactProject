@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <main className="mt-20">
-      <div className="content h-auto grid grid-cols-2 items-center py-5 my-6 gap-10">
+    <main className="mt-20 400:text-center 800:text-left">
+      <div className="content h-auto grid grid-cols-1 800:grid-cols-2 items-center py-5 my-6">
         <div>
-          <h1 className="text-4xl leading-12 font-semibold mb-2">
+          <h1 className="text-[28px] lg:text-[32px] leading-10 font-semibold mb-2">
             Discover the World, One Country at a Time.
           </h1>
           <p className="text-lg leading-6 mb-4">
@@ -21,9 +21,9 @@ const HeroSection = () => {
             </button>
           </NavLink>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center lg:justify-end">
           <img
-            className="size-100 object-cover"
+            className="size-70 800:size-80 lg:size-90 mt-4 object-cover"
             src="/images/globe.png"
             alt=""
           />

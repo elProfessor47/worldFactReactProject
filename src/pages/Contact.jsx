@@ -10,12 +10,12 @@ const getFormData = (event) => {
 };
 const Contact = () => {
   return (
-    <div className="flex justify-center my-30">
+    <div className="flex justify-center my-25 mb-10 ">
       <div className=" flex items-center flex-col">
-        <h1 className="text-5xl">Contact Us</h1>
-        <form className="flex flex-col mt-10" onSubmit={getFormData}>
+        <h1 className="text-[40px]">Contact Us</h1>
+        <form className="flex flex-col mt-5" onSubmit={getFormData}>
           <input
-            className="border border-gray-500 my-3 px-5 py-2 rounded-xl w-120"
+            className="border border-gray-500 my-3 px-5 py-2 rounded-xl w-70 500:w-96 600:w-110 700:w-125 800:w-140"
             type="text"
             placeholder="Enter Your Name"
             name="username"
@@ -23,7 +23,7 @@ const Contact = () => {
             required
           />
           <input
-            className="border border-gray-500 my-3 px-5 py-2 rounded-xl w-120"
+            className="border border-gray-500 my-3 px-5 py-2 rounded-xl w-70 500:w-96 600:w-110 700:w-125 800:w-140"
             type="text"
             placeholder="Enter Your Password"
             name="password"
@@ -31,7 +31,7 @@ const Contact = () => {
             required
           />
           <textarea
-            className="border border-gray-500 my-3 px-5 py-2 rounded-xl w-120"
+            className="border border-gray-500 my-3 px-5 py-2 rounded-xl w-70 500:w-96 600:w-110 700:w-125 800:w-140"
             placeholder="Enter Your Message"
             name="message"
             autoComplete="off"
@@ -39,7 +39,7 @@ const Contact = () => {
             rows="10"
           />
           <button
-            className="bg-[#202020] cursor-pointer text-xl border border-gray-500 my-3 px-5 py-2 rounded-xl w-120 text-start"
+            className="bg-[#202020] cursor-pointer text-xl border border-gray-500 my-3 px-5 py-2 rounded-xl w-70 500:w-96 600:w-110 700:w-125 800:w-140 text-start"
             type="submit"
           >
             Send

@@ -6,7 +6,9 @@ const Home = () => {
   return (
     <>
       <HeroSection />
+      <div className="-mt-25">
       <About />
+      </div>
     </>
   );
 };
