@@ -37,7 +37,7 @@ const SearchFilter = ({ search, setSearch, filter, setFilter, countries, setCoun
         onChange={(e) => setFilter(e.target.value)}
       >
         {filterObj.map((currOption) => (
-          <option className="cursor-pointer text-sm" value={currOption.value}>{currOption.display}</option>
+          <option key={currOption.value} className="cursor-pointer text-sm" value={currOption.value}>{currOption.display}</option>
         ))}
       </select>
     </div>

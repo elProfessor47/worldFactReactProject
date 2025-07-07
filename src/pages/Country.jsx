@@ -17,8 +17,7 @@ const Country = () => {
       window.scrollTo(0,0)
     });
   }, []);
-
-  console.log(countries);
+  
   if (isPending) {
     return <Loader />;
   }
