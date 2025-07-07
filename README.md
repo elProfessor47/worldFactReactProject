@@ -1,12 +1,30 @@
-# React + Vite
+# Factoria 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that provides interesting facts about countries using an external REST API.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React JS
+- Axios
+- Tailwind CSS
+- React Router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+[Click Here to Visit](https://factoriaworldsfacts.netlify.app/)
 
-## Expanding the ESLint configuration
+## Folder Structure
+- `/components` – UI components
+- `/api` – Axios API logic
+- `/pages` – Page layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots
+![Contact](https://github.com/user-attachments/assets/b890daea-be5f-439b-880a-9a87c57d2977)
+![Home](https://github.com/user-attachments/assets/5d705410-2f37-43db-b779-d3b31f613024)
+![About](https://github.com/user-attachments/assets/2f047800-655d-4021-8149-3cc1bac113b0)
+![Country_](https://github.com/user-attachments/assets/5b992fa1-873f-44a1-80d9-3f45849fd212)
+![Country](https://github.com/user-attachments/assets/616ce3de-c420-4846-a8f4-58d93976d2fc)
+![individualCountry](https://github.com/user-attachments/assets/a10c0650-d244-4946-83e7-0e3e30d0423b)
+
+
+
+## Contact
+- Gmail: el.professor.47.mh@gmail.com
