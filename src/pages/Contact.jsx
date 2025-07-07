@@ -18,7 +18,7 @@ const Contact = () => {
         <h1 className="text-[40px]">Contact Us</h1>
         <form className="flex flex-col mt-5" onSubmit={getFormData}>
           <input
-            className="border border-gray-500 my-3 px-5 py-2 rounded-xl70 500:w-96 600:w-110 700:w-125 800:w-140"
+            className="border rounded-xl border-gray-500 my-3 px-5 py-2 rounded-xl70 500:w-96 600:w-110 700:w-125 800:w-140"
             type="text"
             placeholder="Enter Your Name"
             name="username"

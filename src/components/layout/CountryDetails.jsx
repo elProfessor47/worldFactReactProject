@@ -71,7 +71,7 @@ const CountryDetails = () => {
                   .join(", ")}
               </p>
               <p>
-                <span className="font-semibold underline underline-offset-4">Borders :</span> {borders.join(", ")}
+                <span className="font-semibold underline underline-offset-4">Borders :</span> {borders && borders.length > 0 ? borders.join(", ") : "No bordering countries"}
               </p>
               <p>
                 <span className="font-semibold underline underline-offset-4">Top Level Domain :</span> "{tld}"
