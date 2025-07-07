@@ -36,14 +36,14 @@ const CountryDetails = () => {
   } = country;
 
   return (
-    <div className="content mt-20 p-5">
-      <div className="grid grid-cols-1 text-left justify-items-left items-center">
+    <div className="w-[85vw] mx-auto 500:w-[60vw] lg:w-[85vw] mt-20 p-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:justify-items-center lg:gap-10 items-center">
         {country && (
           <>
             <div className="mt-5">
-              <img className="size-40 object-contain" src={flags.svg} alt="" />
+              <img className="size-45 500:size-50 md:size-66 object-contain" src={flags.svg} alt="" />
             </div>
-            <div className="flex flex-col gap-2 text-sm py-5">
+            <div className="flex flex-col gap-2 text-[15px] 500:text-[16px] md:text-lg lg:text-xl py-5 ">
               <h1 className="text-2xl my-5 font-bold tracking-wider">{name.official}</h1>
               <p>
                 <span className="font-semibold underline underline-offset-4">Native names :</span>{" "}

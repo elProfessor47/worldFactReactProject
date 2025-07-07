@@ -14,6 +14,7 @@ const Country = () => {
     startTransition(async () => {
       const res = await getCountriesData();
       setCountries(res.data);
+      window.scrollTo(0,0)
     });
   }, []);
 

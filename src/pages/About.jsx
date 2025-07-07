@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CountriesData from "../api/CountriesData.json";
 import { DiVim } from "react-icons/di";
 import CountryInterestingFacts from "../components/layout/CountryInterestingFacts";
 
 const About = () => {
+    useEffect(() => {
+      window.scrollTo(0,0)
+    },[])
   return (
     <div className="content flex flex-col justify-center mb-12 font-poppins tracking-wide">
       <h1 className="text-3xl font-fira font-semibold text-center tracking-wider leading-10 mt-25">
